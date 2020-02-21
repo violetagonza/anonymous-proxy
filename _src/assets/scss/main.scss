@@ -79,29 +79,32 @@ body {
   height: 44px;
   background-color: indianred;
 }
-// TO DELETE LATER
-.header {
-  border: solid 4px red;
-  &-text {
-    border: solid 4px rgb(134, 95, 21);
-    background-color: white;
-  }
+// // TO DELETE LATER
+.header-text {
+  background-color: white;
 }
-.main-principal {
-  border: solid 4px blue;
-}
-.main-secondary {
-  border: solid 4px yellow;
-}
-.footer {
-  border: solid 4px green;
-  &-links {
-    border: solid 4px orange;
-  }
-}
-.articles {
-  border: solid 4px hotpink;
-  &-item {
-    border: solid 4px grey;
-  }
-}
+// .header {
+//   border: solid 4px red;
+//   &-text {
+//     border: solid 4px rgb(134, 95, 21);
+//     background-color: white;
+//   }
+// }
+// .main-principal {
+//   border: solid 4px blue;
+// }
+// .main-secondary {
+//   border: solid 4px yellow;
+// }
+// .footer {
+//   border: solid 4px green;
+//   &-links {
+//     border: solid 4px orange;
+//   }
+// }
+// .articles {
+//   border: solid 4px hotpink;
+//   &-item {
+//     border: solid 4px grey;
+//   }
+// }
