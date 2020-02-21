@@ -13,7 +13,8 @@
   </head>
 
   <body>
-    <header>
+    <!-- HEADER -->
+    <header class="header">
       <h1>
         Anonymous proxy
       </h1>
@@ -22,8 +23,10 @@
       </h3>
       <img src="./assets/images/ico-scroll-down.svg" alt="Click to main" />
     </header>
+
     <main>
-      <article>
+      <!-- LOOKING THROUGH A WINDOW -->
+      <section class="main-principal">
         <h6>
           Insomnia Tips
         </h6>
@@ -33,58 +36,69 @@
           at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
         <button>Go</button>
-      </article>
-      <article>
+      </section>
+      <!-- 3 REASONS TO PURCHASE -->
+      <section class="main-secondary">
         <h2>3 Reasons To Purchase</h2>
-        <h3>Ut sed metus</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consecteur.
-        </p>
-        <h3>
-          Curabitur ac erat
-        </h3>
-        <p>
-          Mauris mattis urna quis lorem molestie.
-        </p>
-        <h3>Morbi dictum</h3>
-        <p>
-          Aliquam in dolor et dolor tincidunt.
-        </p>
+        <div class="articles">
+          <article class="articles-item">
+            <h3>Ut sed metus</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consecteur.
+            </p>
+          </article>
+          <article class="articles-item">
+            <h3>
+              Curabitur ac erat
+            </h3>
+            <p>
+              Mauris mattis urna quis lorem molestie.
+            </p>
+          </article>
+          <article class="articles-item">
+            <h3>Morbi dictum</h3>
+            <p>
+              Aliquam in dolor et dolor tincidunt.
+            </p>
+          </article>
+        </div>
         <button>More reasons</button>
-      </article>
+      </section>
     </main>
-    <footer>
+    <!-- FOOTER -->
+    <footer class="footer">
       <img src="./assets/images/ico-arrow.svg" alt="Click to go up" />
-
-      <ul>
-        <li>
-          <a href="#">Articles</a>
-        </li>
-        <li>
-          <a href="">Books</a>
-        </li>
-        <li>
-          a
-          <a href="#">Events</a>
-        </li>
-        <li>
-          <a href="#">Reasons</a>
-        </li>
-        <li>
-          <a href="#">Tips</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">Twitter</a>
-        </li>
-        <li>
-          <a href="#">Instagram</a>
-        </li>
-        <li>
-          <a href="">Mastodon.social</a>
-        </li>
-      </ul>
+      <div class="footer-links">
+        <ul>
+          <li>
+            <a href="#">Articles</a>
+          </li>
+          <li>
+            <a href="">Books</a>
+          </li>
+          <li>
+            a
+            <a href="#">Events</a>
+          </li>
+          <li>
+            <a href="#">Reasons</a>
+          </li>
+          <li>
+            <a href="#">Tips</a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">Twitter</a>
+          </li>
+          <li>
+            <a href="#">Instagram</a>
+          </li>
+          <li>
+            <a href="">Mastodon.social</a>
+          </li>
+        </ul>
+      </div>
       <small> ©2017 we ❤︎ components </small>
     </footer>
   </body>

@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+// TO DELETE LATER
+.header {
+  border: solid 4px red;
+}
+.main-principal {
+  border: solid 4px blue;
+}
+.main-secondary {
+  border: solid 4px yellow;
+}
+.footer {
+  border: solid 4px green;
+  &-links {
+    border: solid 4px orange;
+  }
+}
+.articles {
+  border: solid 4px hotpink;
+  &-item {
+    border: solid 4px grey;
+  }
+}
