@@ -36,6 +36,13 @@ body {
     grid-column: span 3;
   }
 }
+@media all and (min-width: 768px) {
+  .main-secondary {
+    .articles-item {
+      grid-column: span 1;
+    }
+  }
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -52,9 +59,22 @@ body {
     display: block;
   }
 }
+@media all and (min-width: 768px) {
+  .footer {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    &-links {
+      text-align: left;
+      display: flex;
+    }
+    .copy {
+      text-align: left;
+    }
+  }
+}
 
 .header-burger {
-  position: fixed;
   width: 44px;
   height: 44px;
   background-color: indianred;
@@ -64,6 +84,7 @@ body {
   border: solid 4px red;
   &-text {
     border: solid 4px rgb(134, 95, 21);
+    background-color: white;
   }
 }
 .main-principal {
