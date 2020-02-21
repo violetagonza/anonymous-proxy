@@ -6,14 +6,22 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: flex-end;
   &-burger {
     position: fixed;
     top: 0;
+    left: 0;
+    &-item {
+      position: absolute;
+    }
   }
   &-text {
     text-align: center;
   }
+  // &-arrow {
+  //   text-align: center;
+  // }
 }
 .main-secondary {
   text-align: center;

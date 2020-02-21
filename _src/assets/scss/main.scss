@@ -1,18 +1,12 @@
 @import "core/resets";
 @import "core/variables";
 @import "core/box-distribution";
+@import "components/header-styles";
 
 // BOX DISTRIBUTION
 
-.header-burger {
-  width: 44px;
-  height: 44px;
-  background-color: indianred;
-}
 // // TO DELETE LATER
-.header-text {
-  background-color: white;
-}
+
 // .header {
 //   border: solid 4px red;
 //   &-text {

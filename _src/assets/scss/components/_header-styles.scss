@@ -1,0 +1,42 @@
+.header {
+  padding-bottom: 53px;
+  &-burger {
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    &-item {
+      padding: 15px;
+      padding-left: 14px;
+    }
+  }
+  &-text {
+    color: white;
+    &-title {
+      font-family: "RobotoSlab";
+      font-weight: bold;
+      font-size: 42px;
+      text-transform: uppercase;
+      line-height: 55px;
+    }
+    &-subtitle {
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: normal;
+      line-height: normal;
+      margin-top: 10px;
+      margin-bottom: 45px;
+    }
+  }
+  &-arrow {
+    width: 45px;
+    background-color: white;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top: 13.5px;
+    padding-bottom: 13.5px;
+    border-radius: 50%;
+  }
+}
+.span {
+  display: block;
+}
