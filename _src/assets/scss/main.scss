@@ -5,9 +5,66 @@ body {
   box-sizing: border-box;
 }
 
+// BOX DISTRIBUTION
+
+.header {
+  background-image: url(../images/cover.jpg);
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  &-burger {
+    position: fixed;
+    top: 0;
+  }
+  &-text {
+    text-align: center;
+  }
+}
+.main-secondary {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  .title {
+    grid-column: span 3;
+  }
+  .articles-item {
+    grid-column: span 3;
+  }
+  &-button {
+    grid-column: span 3;
+  }
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-arrow {
+    position: relative;
+    top: -15px;
+  }
+  &-links {
+    text-align: center;
+  }
+  .copy {
+    text-align: center;
+    display: block;
+  }
+}
+
+.header-burger {
+  position: fixed;
+  width: 44px;
+  height: 44px;
+  background-color: indianred;
+}
 // TO DELETE LATER
 .header {
   border: solid 4px red;
+  &-text {
+    border: solid 4px rgb(134, 95, 21);
+  }
 }
 .main-principal {
   border: solid 4px blue;
