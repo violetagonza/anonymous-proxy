@@ -1,0 +1,39 @@
+.main-principal {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 45px;
+  &-pretitle {
+    color: #8ccbea;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: "Roboto";
+    font-weight: normal;
+    margin: 0;
+  }
+  &-title {
+    font-size: $font-size-title;
+    line-height: 30px;
+    font-family: "RobotoSlab";
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  &-text {
+    color: #4a4a4a;
+    font-size: $font-size-paragraph;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+  &-button {
+    font-size: $font-size-button;
+    color: $color-primary;
+    border-color: $color-primary;
+    border-radius: 22.5px;
+    background-color: white;
+    padding-left: 26px;
+    padding-right: 26px;
+    width: 76px;
+    height: 45px;
+  }
+}
