@@ -33,8 +33,10 @@
   .article-item {
     grid-column: span 3;
   }
-  &-button {
+  &-containerbutton {
     grid-column: span 3;
+    display: flex;
+    justify-content: center;
   }
 }
 @media all and (min-width: 768px) {
