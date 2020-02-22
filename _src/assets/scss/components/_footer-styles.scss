@@ -1,0 +1,39 @@
+.footer {
+  background-color: $color-secondary-dark;
+  color: white;
+  padding-bottom: 45px;
+  &-arrow {
+    width: 45px;
+    background-color: white;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  }
+  &-links {
+    font-family: "Roboto";
+    text-transform: uppercase;
+    line-height: 30px;
+    &-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 0;
+      margin-bottom: 30px;
+    }
+    &-item {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .copy {
+    font-family: "Roboto";
+    font-size: $font-size-small;
+    font-weight: normal;
+    line-height: 30px;
+    &-heart {
+      color: $color-primary;
+    }
+  }
+}
