@@ -30,7 +30,7 @@
   .title {
     grid-column: span 3;
   }
-  .articles-item {
+  .article-item {
     grid-column: span 3;
   }
   &-button {
@@ -39,7 +39,7 @@
 }
 @media all and (min-width: 768px) {
   .main-secondary {
-    .articles-item {
+    .article-item {
       grid-column: span 1;
     }
   }

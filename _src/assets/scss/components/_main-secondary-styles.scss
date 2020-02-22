@@ -1,0 +1,39 @@
+.main-secondary {
+  background-color: #eff9ff;
+  padding-bottom: 60px;
+  .title {
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: $font-size-title;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+  }
+  .article-item {
+    padding-bottom: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .article-title {
+    font-family: "Roboto Slab";
+    font-weight: bold;
+    font-size: $font-size-paragraph;
+    line-height: 30px;
+    margin-top: 0px;
+  }
+  .article-text {
+    font-family: "Roboto";
+    font-size: $font-size-paragraph;
+    line-height: 30px;
+  }
+  &-button {
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $color-primary;
+    color: white;
+    font-family: "Roboto";
+    font-size: $font-size-button;
+    line-height: 45px;
+  }
+}
