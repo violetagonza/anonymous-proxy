@@ -67,6 +67,10 @@
       text-align: left;
       display: flex;
     }
+    &-arrow {
+      position: relative;
+      top: -22.5px;
+    }
     .copy {
       text-align: left;
     }
