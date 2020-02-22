@@ -37,3 +37,30 @@
     height: 45px;
   }
 }
+
+@media all and (min-width: 768px) {
+  .main-principal {
+    padding-left: 39px;
+    padding-bottom: 60px;
+    &-title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+    &-text {
+      font-size: $font-size-button;
+      margin-top: 30px;
+      line-height: 30px;
+    }
+    &-button {
+      font-size: $font-size-button;
+      color: $color-primary;
+      border-color: $color-primary;
+      border-radius: 22.5px;
+      background-color: white;
+      padding-left: 33.5px;
+      padding-right: 33.5px;
+      width: 91px;
+      height: 45px;
+    }
+  }
+}
