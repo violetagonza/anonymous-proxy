@@ -37,3 +37,26 @@
     line-height: 45px;
   }
 }
+@media all and (min-width: 768px) {
+  .main-secondary {
+    .title {
+      font-size: 26px;
+      line-height: 45px;
+    }
+    .article-item {
+      padding-bottom: 60px;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+    .article-title {
+      font-size: $font-size-title;
+      margin-bottom: 14px;
+    }
+    .article-text {
+      font-size: $font-size-button;
+    }
+    &-button {
+      width: 210px;
+    }
+  }
+}
