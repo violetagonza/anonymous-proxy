@@ -62,3 +62,19 @@
     }
   }
 }
+@media all and (min-width: 1200px) {
+  .header {
+    padding-bottom: 45px;
+    &-text {
+      &-title {
+        font-size: 100px;
+        line-height: 132px;
+      }
+      &-subtitle {
+        font-size: $font-size-title;
+        margin-top: 0;
+        margin-bottom: 88px;
+      }
+    }
+  }
+}
