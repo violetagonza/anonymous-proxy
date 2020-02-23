@@ -1,0 +1,8 @@
+.main-principal-button {
+  &:hover {
+    color: white;
+    background-color: $color-primary;
+    transform: scale(1.1);
+    transition: background-color ease 1s, transform ease 1s, color ease 1s;
+  }
+}
