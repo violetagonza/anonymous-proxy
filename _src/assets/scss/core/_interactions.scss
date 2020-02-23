@@ -3,7 +3,14 @@
     color: white;
     background-color: $color-primary;
     transform: scale(1.1);
-    transition: background-color ease 1s, transform ease 1s, color ease 1s;
+    transition: background-color ease 0.5s, transform ease 0.5s, color ease 0.5s;
+  }
+  &:active {
+    color: $color-primary;
+    background-color: white;
+    border: 2px $color-primary solid;
+    transform: scale(1);
+    transition: background-color ease 0s, transform ease 0s, color ease 0s;
   }
 }
 .main-secondary-button {
@@ -13,6 +20,12 @@
     border: 2px $color-primary solid;
     transform: scale(1.1);
     transition: background-color ease 1s, transform ease 1s, color ease 1s;
+  }
+  &:active {
+    color: white;
+    background-color: $color-primary;
+    transform: scale(1);
+    transition: background-color ease 0s, transform ease 0s, color ease 0s;
   }
 }
 
@@ -26,9 +39,8 @@
 .footer-arrow {
   &:hover {
     animation-name: footer-arrow;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     animation-iteration-count: infinite;
-
     @keyframes footer-arrow {
       from {
         transform: translate(-770%, 0);
@@ -38,6 +50,27 @@
       }
       to {
         transform: translate(-770%, 0px);
+      }
+    }
+  }
+}
+
+.header {
+  &-arrow {
+    &:hover {
+      animation-name: header-arrow;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      @keyframes header-arrow {
+        from {
+          transform: translate (0);
+        }
+        50% {
+          transform: translate(0, 10px);
+        }
+        to {
+          transform: translate(0);
+        }
       }
     }
   }
