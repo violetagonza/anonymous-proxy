@@ -52,3 +52,18 @@
     }
   }
 }
+
+@media all and (min-width: 768px) {
+  .footer {
+    &-links {
+      padding-top: 45px;
+      &-list {
+        margin-left: 180px;
+        margin-bottom: 0;
+      }
+    }
+    &-small {
+      margin-top: 45px;
+    }
+  }
+}
