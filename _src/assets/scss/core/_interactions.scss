@@ -32,7 +32,9 @@
 @media all and (max-width: 768px) {
   .footer-arrow {
     &:hover {
-      animation-name: none;
+      animation-name: footer-arrow-mobile;
+      animation-duration: 1.5s;
+      animation-iteration-count: 1;
     }
   }
 }
@@ -50,6 +52,16 @@
       }
       to {
         transform: translate(-770%, 0px);
+      }
+    }
+  }
+  &:hover {
+    @keyframes footer-arrow-mobile {
+      from {
+        transform: rotate(180deg);
+      }
+      to {
+        transform: rotate(0);
       }
     }
   }
