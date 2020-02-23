@@ -29,6 +29,7 @@
     font-size: $font-size-button;
     color: $color-primary;
     border-color: $color-primary;
+    border-width: 2px;
     border-radius: 22.5px;
     background-color: white;
     padding-left: 26px;
@@ -61,6 +62,29 @@
       padding-right: 33.5px;
       width: 91px;
       height: 45px;
+    }
+  }
+}
+@media all and (min-width: 1200px) {
+  .main-principal {
+    padding-left: 275px;
+    padding-right: 275px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    &-pretitle {
+      font-size: 16px;
+    }
+    &-title {
+      font-size: 32px;
+      line-height: 45px;
+    }
+    &-text {
+      font-size: $font-size-button;
+      margin-top: 30px;
+      line-height: 30px;
+    }
+    &-button {
+      width: 160px;
     }
   }
 }
