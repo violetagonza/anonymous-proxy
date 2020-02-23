@@ -6,3 +6,12 @@
     transition: background-color ease 1s, transform ease 1s, color ease 1s;
   }
 }
+.main-secondary-button {
+  &:hover {
+    color: $color-primary;
+    background-color: white;
+    border: 2px $color-primary solid;
+    transform: scale(1.1);
+    transition: background-color ease 1s, transform ease 1s, color ease 1s;
+  }
+}
