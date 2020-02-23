@@ -75,3 +75,8 @@
     }
   }
 }
+.footer-links-item {
+  &:hover {
+    color: $color-primary;
+  }
+}
