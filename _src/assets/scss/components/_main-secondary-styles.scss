@@ -1,12 +1,13 @@
 .main-secondary {
   background-color: #eff9ff;
+  padding-top: 30px;
   padding-bottom: 60px;
   .title {
     font-family: "Roboto Slab";
     font-weight: bold;
     font-size: $font-size-title;
     line-height: 30px;
-    margin-top: 30px;
+    margin-top: 0;
     margin-bottom: 45px;
   }
   .article-item {
@@ -57,6 +58,19 @@
     }
     &-button {
       width: 210px;
+    }
+  }
+}
+@media all and (min-width: 768px) {
+  .main-secondary {
+    padding-top: 60px;
+    padding-left: 90px;
+    padding-right: 90px;
+    .title {
+      font-size: 32px;
+    }
+    &-button {
+      width: 255px;
     }
   }
 }
