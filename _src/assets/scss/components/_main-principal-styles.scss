@@ -1,23 +1,23 @@
 .main-principal {
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 30px;
+  padding-right: 15px;
   padding-bottom: 45px;
+  padding-left: 15px;
   &--pretitle {
     color: #8ccbea;
+    font-family: "Roboto";
     font-size: 14px;
     line-height: 30px;
-    font-family: "Roboto";
     font-weight: normal;
     margin: 0;
   }
   &--title {
     font-size: $font-size-title;
-    line-height: 30px;
     font-family: "Roboto Slab";
+    line-height: 30px;
     font-weight: bold;
-    margin: 0;
     text-transform: capitalize;
+    margin: 0;
   }
   &--text {
     color: #4a4a4a;
@@ -26,15 +26,15 @@
     margin-bottom: 30px;
   }
   &--button {
-    font-size: $font-size-button;
     color: $color-primary;
-    outline: none;
+    background-color: white;
+    font-size: $font-size-button;
     border-color: $color-primary;
     border-width: 2px;
     border-radius: 22.5px;
-    background-color: white;
-    padding-left: 26px;
+    outline: none;
     padding-right: 26px;
+    padding-left: 26px;
     width: 76px;
     height: 45px;
   }
@@ -42,25 +42,25 @@
 
 @media all and (min-width: 768px) {
   .main-principal {
-    padding-left: 39px;
     padding-bottom: 60px;
+    padding-left: 39px;
     &--title {
       font-size: 26px;
       line-height: 45px;
     }
     &--text {
       font-size: $font-size-button;
-      margin-top: 30px;
       line-height: 30px;
+      margin-top: 30px;
     }
     &--button {
-      font-size: $font-size-button;
+      background-color: white;
       color: $color-primary;
+      font-size: $font-size-button;
       border-color: $color-primary;
       border-radius: 22.5px;
-      background-color: white;
-      padding-left: 33.5px;
       padding-right: 33.5px;
+      padding-left: 33.5px;
       width: 91px;
       height: 45px;
     }
@@ -68,10 +68,10 @@
 }
 @media all and (min-width: 1200px) {
   .main-principal {
-    padding-left: 275px;
-    padding-right: 275px;
     padding-top: 60px;
+    padding-right: 275px;
     padding-bottom: 60px;
+    padding-left: 275px;
     &--pretitle {
       font-size: 16px;
     }
@@ -81,8 +81,8 @@
     }
     &--text {
       font-size: $font-size-button;
-      margin-top: 30px;
       line-height: 30px;
+      margin-top: 30px;
     }
     &--button {
       width: 160px;

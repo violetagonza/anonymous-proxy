@@ -4,21 +4,21 @@
   padding-bottom: 60px;
   &--title {
     font-family: "Roboto Slab";
-    font-weight: bold;
     font-size: $font-size-title;
+    font-weight: bold;
     line-height: 30px;
     margin-top: 0;
     margin-bottom: 45px;
   }
   &--article__item {
+    padding-right: 70px;
     padding-bottom: 45px;
     padding-left: 70px;
-    padding-right: 70px;
   }
   &--article__title {
     font-family: "Roboto Slab";
-    font-weight: bold;
     font-size: $font-size-paragraph;
+    font-weight: bold;
     line-height: 30px;
     margin-top: 0px;
   }
@@ -28,15 +28,15 @@
     line-height: 30px;
   }
   &--button {
-    width: 184px;
-    height: 45px;
-    outline: none;
-    border-radius: 22.5px;
-    background-color: $color-primary;
     color: white;
+    background-color: $color-primary;
     font-family: "Roboto";
     font-size: $font-size-button;
     line-height: 45px;
+    outline: none;
+    border-radius: 22.5px;
+    width: 184px;
+    height: 45px;
   }
 }
 @media all and (min-width: 768px) {
@@ -46,9 +46,9 @@
       line-height: 45px;
     }
     &--article__item {
+      padding-right: 7px;
       padding-bottom: 60px;
       padding-left: 7px;
-      padding-right: 7px;
     }
     &--article__title {
       font-size: $font-size-title;
@@ -65,8 +65,8 @@
 @media all and (min-width: 768px) {
   .main-secondary {
     padding-top: 60px;
-    padding-left: 90px;
     padding-right: 90px;
+    padding-left: 90px;
     &--title {
       font-size: 32px;
     }
