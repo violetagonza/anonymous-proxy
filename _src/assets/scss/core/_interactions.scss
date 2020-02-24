@@ -29,34 +29,12 @@
   }
 }
 
-@media all and (max-width: 768px) {
-  .footer-arrow {
-    &:hover {
-      animation-name: footer-arrow-mobile;
-      animation-duration: 1.5s;
-      animation-iteration-count: 1;
-    }
-  }
-}
 .footer-arrow {
   &:hover {
     animation-name: footer-arrow;
     animation-duration: 1.5s;
     animation-iteration-count: infinite;
     @keyframes footer-arrow {
-      from {
-        transform: translate(-770%, 0);
-      }
-      50% {
-        transform: translate(-770%, -10px);
-      }
-      to {
-        transform: translate(-770%, 0px);
-      }
-    }
-  }
-  &:hover {
-    @keyframes footer-arrow-mobile {
       from {
         transform: rotate(180deg);
       }
