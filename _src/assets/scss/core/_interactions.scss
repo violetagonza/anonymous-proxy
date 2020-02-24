@@ -49,7 +49,7 @@
   }
 }
 
-.footer-arrow {
+.footer--arrow {
   &:hover {
     animation-name: footer-arrow;
     animation-duration: 1.5s;
@@ -65,7 +65,7 @@
   }
 }
 
-.footer-links-item {
+.footer--links__item {
   &:hover {
     color: $color-primary;
   }

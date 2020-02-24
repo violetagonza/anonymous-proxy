@@ -43,35 +43,35 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  &-items {
+  &--items {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  &-arrow {
+  &--arrow {
     position: relative;
     top: -23px;
   }
-  &-links {
+  &--links {
     text-align: center;
   }
-  .copy {
+  &--small__copy {
     text-align: center;
     display: block;
   }
 }
 @media all and (min-width: 768px) {
   .footer {
-    &-items {
+    &--items {
       flex-direction: row-reverse;
       justify-content: center;
       align-items: flex-start;
     }
-    &-links {
+    &--links {
       text-align: left;
       display: flex;
     }
-    .copy {
+    &--small__copy {
       text-align: left;
     }
   }

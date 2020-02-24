@@ -2,7 +2,7 @@
   background-color: $color-secondary-dark;
   color: white;
   padding-bottom: 45px;
-  &-arrow {
+  &--arrow {
     width: 45px;
     background-color: white;
     padding-left: 12.5px;
@@ -12,22 +12,22 @@
     border-radius: 50%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   }
-  &-links {
+  &--links {
     font-family: "Roboto";
     text-transform: uppercase;
     line-height: 30px;
-    &-list {
+    &__list {
       list-style: none;
       padding: 0;
       margin-top: 0;
       margin-bottom: 30px;
     }
-    &-item {
+    &__item {
       text-decoration: none;
       color: white;
     }
   }
-  .copy {
+  &--small__copy {
     font-family: "Roboto";
     font-size: $font-size-small;
     font-weight: normal;
@@ -40,14 +40,14 @@
 
 @media all and (min-width: 768px) {
   .footer {
-    &-links {
+    &--links {
       padding-top: 45px;
-      &-list {
+      &__list {
         margin-left: 180px;
         margin-bottom: 0;
       }
     }
-    &-small {
+    &--small {
       margin-top: 45px;
     }
   }
@@ -55,14 +55,14 @@
 
 @media all and (min-width: 768px) {
   .footer {
-    &-links {
+    &--links {
       padding-top: 45px;
-      &-list {
+      &__list {
         margin-left: 180px;
         margin-bottom: 0;
       }
     }
-    &-small {
+    &--small {
       margin-top: 45px;
     }
   }
