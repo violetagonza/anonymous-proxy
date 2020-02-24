@@ -33,7 +33,7 @@
     transition: background-color ease 0s, transform ease 0s, color ease 0s;
   }
 }
-.main-secondary-button {
+.main-secondary--button {
   &:hover {
     color: $color-primary;
     background-color: white;

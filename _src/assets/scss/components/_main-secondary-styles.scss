@@ -2,7 +2,7 @@
   background-color: #eff9ff;
   padding-top: 30px;
   padding-bottom: 60px;
-  .title {
+  &--title {
     font-family: "Roboto Slab";
     font-weight: bold;
     font-size: $font-size-title;
@@ -10,24 +10,24 @@
     margin-top: 0;
     margin-bottom: 45px;
   }
-  .article-item {
+  &--article__item {
     padding-bottom: 45px;
     padding-left: 70px;
     padding-right: 70px;
   }
-  .article-title {
+  &--article__title {
     font-family: "Roboto Slab";
     font-weight: bold;
     font-size: $font-size-paragraph;
     line-height: 30px;
     margin-top: 0px;
   }
-  .article-text {
+  &--article__text {
     font-family: "Roboto";
     font-size: $font-size-paragraph;
     line-height: 30px;
   }
-  &-button {
+  &--button {
     width: 184px;
     height: 45px;
     outline: none;
@@ -41,23 +41,23 @@
 }
 @media all and (min-width: 768px) {
   .main-secondary {
-    .title {
+    &--title {
       font-size: 26px;
       line-height: 45px;
     }
-    .article-item {
+    &--article__item {
       padding-bottom: 60px;
       padding-left: 7px;
       padding-right: 7px;
     }
-    .article-title {
+    &--article__title {
       font-size: $font-size-title;
       margin-bottom: 14px;
     }
-    .article-text {
+    &--article__text {
       font-size: $font-size-button;
     }
-    &-button {
+    &--button {
       width: 210px;
     }
   }
@@ -67,10 +67,10 @@
     padding-top: 60px;
     padding-left: 90px;
     padding-right: 90px;
-    .title {
+    &--title {
       font-size: 32px;
     }
-    &-button {
+    &--button {
       width: 255px;
     }
   }
