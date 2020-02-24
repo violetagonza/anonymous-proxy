@@ -3,19 +3,19 @@
   color: white;
   padding-bottom: 45px;
   &--arrow {
-    width: 45px;
     background-color: white;
-    padding-left: 12.5px;
-    padding-right: 12.5px;
-    padding-top: 10px;
-    padding-bottom: 7px;
-    border-radius: 50%;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    width: 45px;
+    padding-top: 10px;
+    padding-right: 12.5px;
+    padding-bottom: 7px;
+    padding-left: 12.5px;
+    border-radius: 50%;
   }
   &--links {
     font-family: "Roboto";
-    text-transform: uppercase;
     line-height: 30px;
+    text-transform: uppercase;
     &__list {
       list-style: none;
       padding: 0;
@@ -23,8 +23,8 @@
       margin-bottom: 30px;
     }
     &__item {
-      text-decoration: none;
       color: white;
+      text-decoration: none;
     }
   }
   &--small__copy {
@@ -43,8 +43,8 @@
     &--links {
       padding-top: 45px;
       &__list {
-        margin-left: 180px;
         margin-bottom: 0;
+        margin-left: 180px;
       }
     }
     &--small {
@@ -58,8 +58,8 @@
     &--links {
       padding-top: 45px;
       &__list {
-        margin-left: 180px;
         margin-bottom: 0;
+        margin-left: 180px;
       }
     }
     &--small {
