@@ -3,7 +3,7 @@
   padding-right: 15px;
   padding-top: 30px;
   padding-bottom: 45px;
-  &-pretitle {
+  &--pretitle {
     color: #8ccbea;
     font-size: 14px;
     line-height: 30px;
@@ -11,7 +11,7 @@
     font-weight: normal;
     margin: 0;
   }
-  &-title {
+  &--title {
     font-size: $font-size-title;
     line-height: 30px;
     font-family: "Roboto Slab";
@@ -19,13 +19,13 @@
     margin: 0;
     text-transform: capitalize;
   }
-  &-text {
+  &--text {
     color: #4a4a4a;
     font-size: $font-size-paragraph;
     margin-top: 15px;
     margin-bottom: 30px;
   }
-  &-button {
+  &--button {
     font-size: $font-size-button;
     color: $color-primary;
     outline: none;
@@ -44,16 +44,16 @@
   .main-principal {
     padding-left: 39px;
     padding-bottom: 60px;
-    &-title {
+    &--title {
       font-size: 26px;
       line-height: 45px;
     }
-    &-text {
+    &--text {
       font-size: $font-size-button;
       margin-top: 30px;
       line-height: 30px;
     }
-    &-button {
+    &--button {
       font-size: $font-size-button;
       color: $color-primary;
       border-color: $color-primary;
@@ -72,19 +72,19 @@
     padding-right: 275px;
     padding-top: 60px;
     padding-bottom: 60px;
-    &-pretitle {
+    &--pretitle {
       font-size: 16px;
     }
-    &-title {
+    &--title {
       font-size: 32px;
       line-height: 45px;
     }
-    &-text {
+    &--text {
       font-size: $font-size-button;
       margin-top: 30px;
       line-height: 30px;
     }
-    &-button {
+    &--button {
       width: 160px;
     }
   }
