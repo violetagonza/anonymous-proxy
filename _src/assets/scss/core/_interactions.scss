@@ -1,3 +1,23 @@
+.header {
+  &--arrow {
+    &:hover {
+      animation-name: header-arrow;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+      @keyframes header-arrow {
+        from {
+          transform: translate (0);
+        }
+        50% {
+          transform: translate(0, 10px);
+        }
+        to {
+          transform: translate(0);
+        }
+      }
+    }
+  }
+}
 .main-principal-button {
   &:hover {
     color: white;
@@ -45,26 +65,6 @@
   }
 }
 
-.header {
-  &-arrow {
-    &:hover {
-      animation-name: header-arrow;
-      animation-duration: 1.5s;
-      animation-iteration-count: infinite;
-      @keyframes header-arrow {
-        from {
-          transform: translate (0);
-        }
-        50% {
-          transform: translate(0, 10px);
-        }
-        to {
-          transform: translate(0);
-        }
-      }
-    }
-  }
-}
 .footer-links-item {
   &:hover {
     color: $color-primary;

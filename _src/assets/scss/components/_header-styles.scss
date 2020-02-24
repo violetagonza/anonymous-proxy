@@ -4,25 +4,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 53px;
-  &-burger {
+  &--burger {
     width: 44px;
     height: 44px;
     background-color: #0271bc;
-    &-item {
+    &__item {
       padding: 15px;
       padding-left: 14px;
     }
   }
-  &-text {
+  &--text {
     color: white;
-    &-title {
+    &__title {
       font-family: "Roboto Slab";
       font-weight: bold;
       font-size: 42px;
       text-transform: uppercase;
       line-height: 55px;
     }
-    &-subtitle {
+    &__subtitle {
       font-family: "Roboto";
       font-size: 16px;
       font-weight: normal;
@@ -31,7 +31,7 @@
       margin-bottom: 45px;
     }
   }
-  &-arrow {
+  &--arrow {
     width: 45px;
     background-color: white;
     padding-left: 12.5px;
@@ -48,13 +48,13 @@
 @media all and (min-width: 768px) {
   .header {
     padding-bottom: 45px;
-    &-text {
-      &-title {
+    &--text {
+      &__title {
         font-size: 80px;
         line-height: 106px;
         margin: 0;
       }
-      &-subtitle {
+      &__subtitle {
         font-size: $font-size-title;
         margin-top: 20px;
         margin-bottom: 35px;
@@ -65,12 +65,12 @@
 @media all and (min-width: 1200px) {
   .header {
     padding-bottom: 13px;
-    &-text {
-      &-title {
+    &--text {
+      &--title {
         font-size: 100px;
         line-height: 132px;
       }
-      &-subtitle {
+      &__subtitle {
         font-size: $font-size-title;
         margin-top: 0;
         margin-bottom: 88px;
