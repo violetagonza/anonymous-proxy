@@ -1,0 +1,31 @@
+.new-section {
+  background-color: $color-primary;
+  text-align: center;
+  &--title {
+    color: white;
+    margin: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  &--paragraph {
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+    &__link {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: $color-secondary-dark;
+      }
+    }
+  }
+}
+@media all and (min-width: 768px) {
+  .new-section {
+    background-color: $color-secondary-dark;
+    &--paragraph__link:hover {
+      color: $color-primary;
+    }
+  }
+}
